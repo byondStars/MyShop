@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
+    "start": "node app.js --MONGO_DB_USERNAME=AwaisSharif MONGO_DB_PASSWORD=AgeebPassword123 MONGO_DB_NAME=myshop NODE_ENV=production",
     "strat:dev": "nodemon app.js",
     "watch": "nodemon",
     "start-server": "nodemon app.js"
