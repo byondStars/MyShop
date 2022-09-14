@@ -31,7 +31,8 @@ const app = express();
 // app.use(connectLiveReload());
 //------------------------------------------------
 
-const MONGO_URI = `mongodb+srv://${process.env.MONGO_DB_USERNAME}:${process.env.MONGO_DB_PASSWORD}@cluster0.neu4z8y.mongodb.net/${process.env.MONGO_DB_NAME}`;
+// const MONGO_URI = `mongodb+srv://${process.env.MONGO_DB_USERNAME}:${process.env.MONGO_DB_PASSWORD}@cluster0.neu4z8y.mongodb.net/${process.env.MONGO_DB_NAME}`;
+const MONGO_URI = `mongodb+srv://AwaisSharif:AgeebPassword123@cluster0.neu4z8y.mongodb.net/myshop`;
 
 const myStore = new mongodbStore({
   uri: MONGO_URI,
